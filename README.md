@@ -42,5 +42,5 @@ Learn more about the project in my articles below:
 This repository provides a comprehensive framework for developing and deploying an intelligent fire alarm classification system. By enhancing the reliability and accuracy of fire detection, this project contributes to improved fire safety and resource management. I invite you to explore the code, experiment with the models, and contribute to the ongoing development of this important safety tool.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/NvkAnirudh/Medical_Cost_Prediction/blob/main/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md]([https://github.com/NvkAnirudh/Medical_Cost_Prediction/blob/main/LICENSE](https://github.com/NvkAnirudh/Smoke-Detector-Classifier/blob/main/LICENSE)) file for details
 
