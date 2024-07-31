@@ -20,9 +20,9 @@ This project addresses this challenge by developing an intelligent fire alarm cl
 
 Multiple classification algorithms were trained and evaluated, including Decision Trees, Random Forests, XGBoost, CatBoost, LightGBM, and AdaBoost. Key metrics considered were:
 
-- Precision: Measures the proportion of correct Fire Alarm predictions, minimizing false positives.
-- Recall: Measures the proportion of actual fires detected, minimizing false negatives.
-- Accuracy: Overall correctness of the predictions.
+- **Precision:** Measures the proportion of correct Fire Alarm predictions, minimizing false positives.
+- **Recall:** Measures the proportion of actual fires detected, minimizing false negatives.
+- **Accuracy:** Overall correctness of the predictions.
   
 All models performed exceptionally well, with Random Forest, XGBoost, CatBoost, and AdaBoost achieving perfect scores in most cases (with no sign of overfitting), demonstrating their robustness and reliability.
 
@@ -30,9 +30,9 @@ All models performed exceptionally well, with Random Forest, XGBoost, CatBoost, 
 
 This project has significant potential for industry application, offering several benefits:
 
-- Enhanced Fire Safety: Reliable fire alarm classification reduces the risk of undetected fires, ensuring timely emergency response and safeguarding lives.
-- Resource Optimization: Minimizing false alarms alleviates the burden on firefighting resources, allowing for more efficient allocation and utilization.
-- Scalability: The modular design and deployment strategy enable easy integration and scaling within existing fire safety systems.
+- **Enhanced Fire Safety:** Reliable fire alarm classification reduces the risk of undetected fires, ensuring timely emergency response and safeguarding lives.
+- **Resource Optimization:** Minimizing false alarms alleviates the burden on firefighting resources, allowing for more efficient allocation and utilization.
+- **Scalability:** The modular design and deployment strategy enable easy integration and scaling within existing fire safety systems.
 
 ## Articles
 
