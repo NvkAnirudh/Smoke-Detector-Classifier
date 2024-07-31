@@ -10,4 +10,5 @@ Flask
 statsmodels
 dataclasses
 lightgbm
+jupyter_to_medium
 # -e .

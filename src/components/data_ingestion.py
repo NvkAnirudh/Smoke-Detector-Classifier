@@ -3,6 +3,8 @@ import sys
 import pandas as pd
 from src.exception import CustomException
 from src.logger import logging
+from src.components.data_transformation import DataTransformation
+from src.components.model_trainer import Trainer
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
@@ -28,6 +30,16 @@ class DataIngestion:
 
             # Dropping unnecessary columns
             df = df.drop(['Unnamed: 0', 'UTC', 'CNT'], axis=1)
+
+            logging.info('Renaming column names')
+
+            df = df.rename(columns={
+                'Temperature[C]': 'Temperature',
+                'Humidity[%]': 'Humidity',
+                'TVOC[ppb]': 'TVOC',
+                'eCO2[ppm]': 'eCO2',
+                'Pressure[hPa]': 'Pressure'
+            })
 
             logging.info('Checking for missing values')
 
@@ -55,9 +67,17 @@ class DataIngestion:
 
             logging.info('Data Ingestion is completed')
 
+            return self.ingestion_config.raw_data_path
+
         except Exception as e:
             raise CustomException(e, sys)
 
 if __name__ == '__main__':
     di = DataIngestion()
-    di.initiate_data_ingestion()
+    data_path = di.initiate_data_ingestion()
+
+    dt = DataTransformation()
+    y_train, y_test, y_val = dt.initiate_data_transformation(data_path)
+
+    mt = Trainer()
+    mt.initiate_model_trainer(y_train, y_test, y_val)
