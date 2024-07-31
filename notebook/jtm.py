@@ -2,7 +2,7 @@ import jupyter_to_medium
 
 # Medium credentials
 username = 'nutianirudh'
-integration_token = '2c4d9e45a4102e762dbf47411834ec906c0af81102a6f4580bb5a29774a7a92ca'
+integration_token = 'medium-integration-token'
 
 # Article title and tags
 title = 'End-to-End Machine Learning Application (Fire Alarm Classification) - Part 1 (Development)'
