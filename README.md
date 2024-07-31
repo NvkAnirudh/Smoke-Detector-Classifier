@@ -46,3 +46,6 @@ This repository provides a comprehensive framework for developing and deploying 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/NvkAnirudh/Smoke-Detector-Classifier/blob/main/LICENSE) file for details
 
+## Acknowledgement
+Thanks to [Six Sigma Pro SMART](https://www.youtube.com/@prosmartanalytics) for the project idea. 
+
