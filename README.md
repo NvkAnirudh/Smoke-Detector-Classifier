@@ -1,3 +1,5 @@
+# Fire Alarm Classification - An End-to-End Machine Learning Application
+
 ## Introduction
 
 Welcome to the Intelligent Fire Alarm Classification System project! This repository contains the code and resources for developing a state-of-the-art machine learning model that enhances the reliability and accuracy of fire alarm systems. By leveraging advanced algorithms, this project aims to minimize false alarms and ensure timely detection of actual fire incidents, thus safeguarding lives and optimizing emergency response efforts.
